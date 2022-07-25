@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Navbar = () => {
     return (
-        <nav>
+        <nav className="bg-black text-white">
             <ul>
                 <li>
                     <Link href="/">
@@ -16,7 +16,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <Link href="/blog">
-                        <a>Blog Post</a>
+                        <a>Blog posts</a>
                     </Link>
                 </li>
                 <li>
@@ -33,6 +33,5 @@ const Navbar = () => {
         </nav>
     );
 }
-
 
 export default Navbar;
