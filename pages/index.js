@@ -1,18 +1,16 @@
 import Head from 'next/head'
-import Navbar from "../components/Navbar"
-import Footer from "../components/Footer"
 
-export default function Home() {
+function IndexPage() {
   return (
     <div>
-      <Head />
-        <body>
-            <Navbar />
-            <main>
-
-            </main>
-            <Footer />
-        </body>
+        <Head>
+            <meta charSet="UTF-8" />
+            <title>Radim Kotajny</title>
+        </Head>
+        <div>
+        </div>
     </div>
   );
 }
+
+export default IndexPage;

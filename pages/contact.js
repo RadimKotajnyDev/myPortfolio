@@ -1,11 +1,8 @@
-import Navbar from "../components/Navbar";
-
 const Contact = () => {
     return (
         <div>
-            <Navbar />
             <p>Here is my mail:</p>
-            <a href="radimkotajny@gmail.com">RadimKotajny@gmail.com</a>
+            <a href="mailto:radimkotajny@gmail.com">Radimkotajny@gmail.com</a>
         </div>
     );
 }
