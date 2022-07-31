@@ -1,7 +1,7 @@
 const website = () => {
     return (
-      <div className="grid grid-flow-col grid-cols-2 ">
-          <div className="font-semibold text-8xl ">
+      <div className="grid grid-flow-col grid-cols-2">
+          <div className="font-semibold text-8xl">
               <h1>About</h1>
               <h1>this</h1>
               <h1>website</h1>
